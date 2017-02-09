@@ -14,9 +14,9 @@ let test = () => {
     .then(()=>driver.findElement(By.css('#loginBtn')))
     .then(btn=>btn.click())
     .then(()=>driver.wait(until.elementLocated( By.css("div.moduleBox:nth-child(1) > div:nth-child(1)") ), 20000 ))
-    .then(punchin());
+    .then(punchout());
 }
-let punchin = () => {
+let punchout = () => {
     driver.get('https://erp.aoacloud.com.tw/HR/HRHB003S00.aspx')
     //切換下班
     .then(()=>driver.findElement(By.css("#label-switch > div > span.switch-left.switch-small.switch-info")))

@@ -1,4 +1,5 @@
 import WebDriver, {By, until} from 'selenium-webdriver';
+import account from './properties';
 
 const driver = new WebDriver.Builder().forBrowser('firefox').usingServer('http://localhost:4444/').build();
 let cookies={};
