@@ -2,7 +2,7 @@
 用[selenium-webdriver](https://github.com/SeleniumHQ/selenium/tree/master/javascript/node/selenium-webdriver)自動打卡
 
 # How to use :wrench:
-sure that you have installed [node and npm](https://nodejs.org/en/)
+make sure that you have installed [node and npm](https://nodejs.org/en/)
 
 install [webdriver](https://github.com/SeleniumHQ/selenium/tree/master/javascript/node/selenium-webdriver)
 
