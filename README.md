@@ -10,15 +10,16 @@ I use [firefox](https://github.com/mozilla/geckodriver/releases/)
 
 run geckodriver for your OS
 
+**edit properties.js**
 ## :memo: then run the shell below:
 
-~~~bash
+~~~
 npm install
 npm run transpile-es2015
 ~~~
 
 上班或下班
-~~~bash
+~~~
 # 上班
 node .\lib\punchin.js
 # 下班
