@@ -1,7 +1,9 @@
 import WebDriver, {By, until} from 'selenium-webdriver';
 import Account from './properties';
+import chromedriver from 'chromedriver';
 
-export const driver = new WebDriver.Builder().forBrowser('firefox').usingServer('http://localhost:4444/').build();
+//export const driver = new WebDriver.Builder().forBrowser('firefox').usingServer('http://localhost:4444/').build();
+export const driver = new WebDriver.Builder().forBrowser('chrome').build();
 
 export default class Login {
     constructor(){
