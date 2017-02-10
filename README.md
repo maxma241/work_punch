@@ -11,7 +11,7 @@ make sure that you have installed [node and npm](https://nodejs.org/en/)
 ~~run geckodriver for your OS~~
 
 **edit properties.js**
-~~~ JavaScript
+~~~ javascript
 export default {
     user:"<your user name>",
     password:"<your password>"
