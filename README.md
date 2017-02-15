@@ -23,13 +23,12 @@ export default {
 
 ~~~ shell
 npm install
-npm run transpile-es2015
 ~~~
 
 上班或下班
 ~~~ shell
 # 上班
-node .\lib\punchin.js
+npm run in
 # 下班
-node .\lib\punchout.js
+npm run out
 ~~~

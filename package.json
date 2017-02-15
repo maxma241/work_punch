@@ -15,8 +15,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "./node_modules/babel-cli/.bin/babel --presets node6 ./main.js",
+    "in": "babel-node --presets es2015 punchin.js",
+    "out": "babel-node --presets es2015 punchout.js",
     "transpile-es2015": "babel ./*.js -d lib"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "eslintConfig":{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    }
+}
 }
